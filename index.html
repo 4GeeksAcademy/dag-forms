@@ -4,122 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form Project</title>
-    <script src=https://kit.fontawesome.com/e8391a8094.js crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8391a8094.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<form method="POST" action="--WEBBOT-SELF--" onSubmit="location.href='../../../_derived/nortbots.htm';return false;" webbot-onSubmit>
-<!--webbot bot="SaveResults" U-File="../../../_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" i-checksum="43374" endspan -->
-<table border="0" width="50%" cellspacing="0" cellpadding="0">
-                 <tr>
-                                <td bgcolor="#E6E6E6"><font face="Calibri" size="2">Payment form example&nbsp;
-                                </font>
-                                </td>
-                </tr>
-                <tr>
-                                <td>
-                                <div align="center">
-                                                <table border="0" width="96%" cellspacing="0" cellpadding="0" bgcolor="#FFCCFF">
-                                                                <tr>
-                                                                                <td><font face="Calibri" size="2">Some fields are missing</font></td>
-                                                                </tr>
-                                                </table>
-                                </div>
-                                </td>
-                </tr>     
-                <tr>
-                                <td>
-                                <table border="0" width="100%" cellspacing="0" cellpadding="0">
-                                                <tr>
-                                                                <td height="33%"><font face="Calibri" size="2">Card #</font></td>
-                                                                <td height="33%"><font face="Calibri" size="2">CVC #</font></td>
-                                                                <td height="33%"><font face="Calibri" size="2">Amount</font></td>
-                                                </tr>
-                                                <tr>
-                                                                <td>
-                                                <font face="Calibri">
-                                                <input type="text" name="T1" size="20"></font></td>
-                                                                <td>
-                                                <font face="Calibri">
-                                                <input type="text" name="T2" size="20"></font></td>
-                                                                <td>
-                                                <font face="Calibri">$<input type="text" name="T3" size="20"></font></td>
-                                                </tr>
-                                </table>
-                                </td>
-                </tr>
-                                <tr>
-                                <td>
-                                <table border="0" width="100%" cellspacing="0" cellpadding="0">
-                                                <tr>
-                                                                <td width="50%"><font face="Calibri" size="2">First Name</font></td>
-                                                                <td width="50%"><font face="Calibri" size="2">Last Name</font></td>
-                                                </tr>
-                                                <tr>
-                                                                <td>
-                                                <font face="Calibri">
-                                                <input type="text" name="T4" size="20"></font></td>
-                                                                <td>
-                                                <font face="Calibri">
-                                                <input type="text" name="T5" size="20"></font></td>
-                                                </tr>
-                                </table>
-                                </td>
-                </tr>
-                                <tr>
-                                <td>
-                                <table border="0" width="100%" cellspacing="0" cellpadding="0">
-                                                <tr>
-                                                                <td width="50%"><font face="Calibri" size="2">City</font></td>
-                                                                <td width="25%"><font face="Calibri" size="2">State</font></td>
-                                                                <td width="25%"><font face="Calibri" size="2">Postal Code</font></td>
-                                                </tr>
-                                                <tr>
-                                                                <td>
-                                                <font face="Calibri">
-                                                <input type="text" name="T6" size="20"></font></td>
-                                                                <td>
-                                                                                <font face="Calibri">
-                                                                                &nbsp;<!--webbot bot="Validation" s-display-name="State" b-disallow-first-item="TRUE" --><select size="1" name="D1">
-                                                                                <option>Pick a State</option>
-                                                                                </select><font size="2"> </font></font>
-                                                                </td>
-                                                                <td>
-                                                <font face="Calibri">
-                                                <input type="text" name="T8" size="10"></font></td>
-                                                </tr>
-                                </table>
-                                </td>
-                </tr>
-                <tr>
-                                <td>
-                                <table border="0" width="100%" cellspacing="0" cellpadding="0">
-                                                <tr>
-                                                                <td width="50%"><font face="Calibri" size="2">We accept</font></td>
-                                                                <td width="50%"><font face="Calibri" size="2">Message</font></td>
-                                                </tr>
-                                                <tr>
-                                                                <td><font face="Calibri">
-                                                                  <input type="radio" name="ccards" value="mast"><i class="fa-brands fa-cc-mastercard"><font size="2"></font></i>
-                                                                  <input type="radio" name="ccards" value="visa"><font size="2"><i class="fa-brands fa-cc-visa"></i></font>
-                                                                  <input type="radio" name="ccards" value="V1"><i class="fa-brands fa-cc-diners-club"><font size="2"></font></i>
-                                                                  <input type="radio" name="ccards" value="amex"><font size="2"><i class="fa-brands fa-cc-paypal"></i></font></font></td>
-                                                                <td>
-                                                                                <font face="Calibri">
-                                                                                <textarea rows="2" name="S1" cols="20"></textarea><font size="2">
-                                                                                </font></font>
-                                                                </td>
-                                                </tr>
-                                                <tr>
-                                                                <td>&nbsp;</td>
-                                                                <td><font face="Calibri" size="2">Add any notes here.</font></td>
-                                                </tr>
-                                </table>
-                                </td>
-                </tr>
-                <tr>
-                                <td bgcolor="#E6E6E6" align="right"><input type="reset" value="Cancel" name="B3">&nbsp;<input type="submit" value="Send" name="B1"></td>
-                </tr>
-</table>
+	<form method="POST" action="--WEBBOT-SELF--">	
+<div class="card">
+	<div class="row1">Payment Form Example</div>
+	<div class="row2">Some fields are missing</div>
+	<br>		
+	<div class="group1">
+		<div>Card #<br><input type="text" name="T1" size="25" style="font-family: Arial; font-size: 10pt"></td></div>
+		<div>CVC #<br><input type="text" name="T2" size="13" style="font-family: Arial; font-size: 10pt"></div>
+		<div>Amount<br>$<input type="text" name="T3" size="9" style="font-family: Arial; font-size: 10pt"></div>
+	</div>	
+<br>
+	<div class="middle">
+		<div class="mid-left">
+			<div class="name">First Name<br><input type="text" name="T1" size="25" style="font-family: Arial; font-size: 10pt"></div>
+			<div class="name">City<br><input type="text" name="T1" size="25" style="font-family: Arial; font-size: 10pt"></div>
+			<div class="name">We Accept<br>
+				<input type="radio" name="ccards" value="mast"><i class="fa-brands fa-cc-mastercard"></i>
+				<input type="radio" name="ccards" value="visa"><i class="fa-brands fa-cc-visa"></i>
+				<input type="radio" name="ccards" value="dine"><i class="fa-brands fa-cc-diners-club"></i>
+				<input type="radio" name="ccards" value="amex"><i class="fa-regular fa-credit-card"></i>
+			</div>
+		</div>	
+		<div class="mid-right">
+			<div class="name">Last Name<br><input type="text" name="T1" size="27" style="font-family: Arial; font-size: 10pt"></div>
+			<div class="postal">
+				<div class="name">State<br>
+					<select size="1" name="D1" style="font-family: Arial; font-size: 10pt">
+						<option>Pick a State</option>
+						<option>Florida</option>
+					</select>					
+				</div>
+				<div class="name">Postal Code<br><input type="text" name="T1" size="10" style="font-family: Arial; font-size: 10pt"></div>
+				</div>
+				<div class="name">Message<br>
+					<textarea rows="2" name="S1" cols="28" style="font-family: Arial; font-size: 10pt"></textarea><br>
+					Add any notes here.
+				</div>
+			</div>		
+
+	</div>	
+
+	<div class="bottom">
+		<input type="reset" value="Cancel" name="B3" style="background-color: darkgray;border-color:darkgray; font-family: Arial; color: #FFFFFF; font-size: 10pt">&nbsp;
+		<input type="submit" value="Send" name="B1" style="background-color: #3399FF;border-color:#3399FF; font-family: Arial; color: #FFFFFF; font-size: 10pt"">
+	</div>
+</div>
+
+
 </form>
+
 </body>
 </html>
